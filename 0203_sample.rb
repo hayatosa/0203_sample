@@ -9,3 +9,9 @@ puts <<~TEXT
 改行されているか？
 
 TEXT
+
+likes = ["family","soccer","travel"]
+
+likes.each do |like|
+  puts like
+end
